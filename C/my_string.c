@@ -14,7 +14,7 @@ char* my_strncpy(char* dest, char* sor, size_t count)
 	size_t i = 0;
 	char* temp = dest;
 
-	while (i++ < count && (*dest++ = *sor++) != '\0')) {
+	while (i++ < count && (*dest++ = *sor++) != '\0') {
 	}
 
 	return temp;
@@ -75,4 +75,3 @@ int my_strcmp(char* str1, char* str2)
 
 	return *str1 > *str2 ? 1 : -1;
 }
-
